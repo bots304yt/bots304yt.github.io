@@ -8,12 +8,7 @@ body {
 }
 
 .fondo{
-    
-    text-align: center;    
-    text-decoration: none;
-    display: inline-block;
-    margin: 12px;
-    justify-content: center;
+    left: 12;
     
 }
 .container {
