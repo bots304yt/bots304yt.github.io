@@ -71,7 +71,7 @@ h1#title {
 }
 
 .boton:hover {
-    transform: scale(0.7);
+    transform: scale(1.05);
 }
 
 #cancelar:hover{
