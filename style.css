@@ -8,8 +8,13 @@ body {
 }
 
 .fondo{
-    margin: auto;
-    padding: auto;
+    
+    text-align: center;    
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    justify-content: center;
+    
 }
 .container {
     border: 100px;
@@ -49,7 +54,7 @@ h1#title {
 
 .boton {
     font-size: 32px;
-    transition: transform .9s, background ease-in .9s;
+    transition: transform .45s, background ease-in .45s;
 
     border-radius: 100px;
     background-color: rgba(0, 0, 0, 0.4);
