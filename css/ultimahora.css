@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+html{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.botones{
+    color: #ededed;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8vw;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10.6vw;
+    position: absolute;
+
+cursor: pointer;
+
+}
+.p{
+    font-size: 1.6vw;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: bolder;
+    width: 28vw;
+
+}
+.imagenes{
+    margin-top: 2vw;
+    width: 30vw;
+    height: 20vw;
+    border-color: transparent;
+    border-radius: 2vw;
+    padding: 0.5vw;
+    max-width: 100%;
+
+    background-color: #ededed;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    top: 2vw;
+}
+
+#b0{
+    padding-left: 2vw;
+    padding-top: 1vw;
+    margin-top: -12vw;
+    width: 98vw;
+    height: 2.5vw;
+    cursor: auto;
+    border: none;
+    background-color: #B22222	;
+    text-align: left;
+    font-size: 1.7vw;
+    left: 0vw;
+
+}
+#b1{
+    margin-left: 10vw;
+}
+#b1:hover{
+    color: #8B0000	;
+}
+#b2{
+    margin-left: 15.5vw;
+    border: 0.2vw solid rgba(221, 0, 0, 0);
+    border-bottom-color: #ededed;
+    border-radius: 0.2vw;
+    padding-bottom: 0.3vw;
+}
+#b2:hover{
+    color: #883363;
+    border-bottom-color: #d17676;
+}
+#b3{
+    margin-left: 23vw;
+}
+#b3:hover{
+    color: #883363;
+}
+#b4{
+    margin-left: 30vw;
+}
+#b4:hover{
+    color: #883363;
+}
+#b5{
+    margin-left: 35vw;
+}
+#b5:hover{
+    color: #883363;
+}
+#p1{
+    margin-top: 12vw;
+   margin-left: 5vw;
+}
+#p2{
+    margin-left: 37vw;
+    margin-top: -5vw ;
+}
+#p3{
+    margin-left: 66vw;
+    margin-top: -6vw ;
+
+}
+
+
+/* Copyright by Bots304yt */ 
