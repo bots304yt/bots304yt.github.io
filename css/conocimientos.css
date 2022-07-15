@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+body{
+    background-color: #0c1930;
+}
+.logo{
+    margin-top: -32vw;
+    margin-left: 1.3vw;
+    border-radius: 0.3vw;
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+}
+.redes{
+    display: flex;
+    text-align: center;
+    margin-top: 32.6vw;
+    
+}
+#github{
+    margin-top: 3vw;
+    margin-left: 2.2vw;
+    width: 0.9vw;
+    height: 1vw;
+    position: absolute;
+    cursor: pointer;
+}
+#instagram{
+    margin-left: 2.2vw;
+    margin-top: 5.8vw;
+    width: 1vw;
+    height: 1vw;
+    position: absolute;
+    cursor: pointer;
+}
+#twitter{
+    margin-left: 2.2vw;
+    margin-top: 8.4vw;
+    width: 1.1vw;
+    height: 1vw;
+    position: absolute;
+    cursor: pointer;
+}
+#twitch{
+    margin-left: 1.9vw;
+    margin-top: 10.8vw;
+    width: 1.8vw;
+    height: 1.7vw;
+    position: absolute;
+    cursor: pointer;
+}
+#linea{
+    margin-top: 13vw;
+    margin-left: 2.6vw;
+    padding-top: 3.9vw;
+    border-left: 0.1vw solid white;
+    color: transparent;
+    position: absolute;
+}
+#linea2{
+    margin-top: 13vw;
+    margin-left: 97vw;
+    padding-top: 3.9vw;
+    border-left: 0.1vw solid white;
+    color: transparent;
+    position: absolute;
+}
+
+#github:hover{
+    margin-top: 2.8vw;
+}
+#instagram:hover{
+    margin-top: 5.6vw;
+}
+#twitter:hover{
+    margin-top: 8.2vw;
+}
+#twitch:hover{
+    margin-top: 10.7vw;
+}
+
+#gmail{
+    float: left;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: 93vw;
+    margin-top: 7vw;
+    color: #8892b0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+#gmail:hover{
+    color: #ebff05;
+    margin-top: 6.8vw;
+}
+
+n{
+    margin-top: -31vw;
+    margin-left: 0vw;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 0.7vw;
+    color: #ebff05;
+    position: absolute;
+
+}
+r{
+    margin-top: -31.08vw;
+    margin-left: 0vw;
+    font-weight: 0.4vw;
+    font-size: 0.8vw;
+    font-family: 'Roboto Mono', monospace;
+    color: #8892b0;
+    position: absolute;
+}
+r:hover{
+    color: #a7b0ca;
+}
+n:hover{
+    color: #cee005;
+}
+#n1{
+    margin-left: 78vw;
+}
+#r1{
+    margin-left: 79.6vw;
+
+}
+#n2{
+    margin-left: 85vw;
+}
+#r2{
+    margin-left: 86.5vw;
+}
+#n3{
+    margin-left: 91.2vw;
+}
+#r3{
+    margin-left: 92.6vw;
+    font-weight: bold;
+    color: #4b5268;
+
+}
+
+
+
+.lenguajes{
+    color: #656b7c;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4vw;
+}
+#box{
+    border-radius: 1.2vw;
+    border-top-left-radius: 0vw;
+    background-color: #050b16be;
+    color: transparent;
+    padding: 8vw 26vw;
+    margin: -5vw 23vw 0vw;
+    position: absolute;
+    z-index: 0;
+}
+#java{
+    border-radius: 0.5vw;
+    margin: -2vw 24.5vw;
+    padding: 0.1vw 3vw 2.5vw;
+    background-color: #0e1a33;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#java:hover{
+    background-color: #162647;
+}
+#javaimg{
+    height: 4vw;
+    padding: 1.8vw 1vw 0vw;
+    margin: 0vw -0.7vw -0.5vw;
+    margin-top: 0.2vw;
+
+}
+#javap{
+    padding: 0vw 1vw 0vw;
+    margin: 2vw 0vw 0vw;
+}
+#javaprogreso{
+    position: absolute;
+    margin-top: -1vw;
+    margin-left: -0.1vw;
+    width: 5vw;
+}
+#html{
+    border-radius: 0.5vw;
+    margin: -2vw 36.5vw;
+    padding: 0.1vw 3vw 2.5vw;
+    background-color: #0e1a33;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+#html:hover{
+    background-color: #162647;
+}
+#htmlimg{
+    height: 4vw;
+    padding: 1.8vw 1vw 0vw;
+    margin: 0vw -0.7vw -0.5vw;
+    margin-top: 0.2vw;
+
+}
+#htmlp{
+    padding: 0vw 1vw 0vw;
+    margin: 2vw 0vw 0vw;
+}
+#htmlprogreso{
+    margin-top: -1vw;
+    margin-left: -0.1vw;
+    width: 5vw;
+    position: absolute;
+}
+#css{
+    border-radius: 0.5vw;
+    margin: -2vw 49vw;
+    padding: 0.1vw 3vw 2.5vw;
+    background-color: #0e1a33;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+#css:hover{
+    background-color: #162647;
+}
+#cssimg{
+    height: 4vw;
+    padding: 1.8vw 1vw 0vw;
+    margin: 0vw -0.7vw -0.5vw;
+    margin-top: 0.2vw;
+
+}
+#cssp{
+    padding: 0vw 1vw 0vw;
+    margin: 2vw 0vw 0vw;
+}
+#cssprogreso{
+    margin-top: -1vw;
+    margin-left: -0.1vw;
+    width: 5vw;
+    position: absolute;
+}
+#mysql{
+    border-radius: 0.5vw;
+    margin: -2vw 61vw;
+    padding: 0.1vw 3vw 2.5vw;
+    background-color: #0e1a33;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+#mysql:hover{
+    background-color: #162647;
+}
+#mysqlimg{
+    height: 4vw;
+    padding: 1.8vw 1vw 0vw;
+    margin: 0vw -0.5vw -0.3vw;
+    margin-top: 0.2vw;
+
+}
+#mysqlp{
+    padding: 0vw 1vw 0vw;
+    margin: 2vw 0vw 0vw;
+}
+#mysqlprogreso{
+    margin-top: -1vw;
+    margin-left: 0.5vw;
+    width: 5vw;
+    position: absolute;
+}
