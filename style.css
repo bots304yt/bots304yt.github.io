@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
 html{
     max-width: 100%;
     max-height: 100%;
@@ -151,7 +153,7 @@ n{
 
 }
 r{
-    margin-top: -31vw;
+    margin-top: -31.08vw;
     margin-left: 0vw;
     font-weight: 0.4vw;
     font-size: 0.8vw;
@@ -160,17 +162,41 @@ r{
     position: absolute;
 }
 #n1{
-    margin-left: 85vw;
+    margin-left: 78vw;
 }
 #r1{
-    margin-left: 86.5vw;
+    margin-left: 79.6vw;
 
 }
 #n2{
-    margin-left: 92vw;
+    margin-left: 85vw;
 }
 #r2{
-    margin-left: 93.5vw;
+    margin-left: 86.5vw;
+}
+#n3{
+    margin-left: 91.2vw;
+}
+#r3{
+    margin-left: 92.6vw;
+}
+
+.inputs{
+    position: absolute;
+    background-color: #091324;
+    color: #8892b0;
+    border: none;
+    left: 71vw;
+    margin-top: -31vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 2vw;
+    height: 1vw;
+    width: 6vw;
+    -moz-text-size-adjust: auto;
+}
+.inputs:focus{
+    color: #b2b8ca;
+
 }
 
 a{
