@@ -125,23 +125,6 @@ body{
     font-weight:bold;
     position: absolute;
 }
-#boton{
-    font-family: 'Roboto Mono', monospace;
-    background-color: transparent;
-    border: 0.1vw solid #ebff05;
-    padding: 1vw 1.4vw;
-    border-radius: 0.6vw;
-    color: #ebff05;
-    margin-left: 15.8vw;
-    margin-top: -2vw;
-    font-weight: bold;
-    position: absolute;
-    font-size: 0.8vw;
-    cursor: pointer;
-}
-#boton:hover{
-    background-color: #eaff050c;
-}
 n{
     margin-top: -31vw;
     margin-left: 0vw;
@@ -210,4 +193,40 @@ a{
     width: 2vw;
     height: 2vw;
     position: absolute;
+    cursor: pointer;
+}
+#boton:hover{
+    background-color: #eaff050c;
+}
+
+/* js */
+
+
+#boton{
+    font-family: 'Roboto Mono', monospace;
+    background-color: transparent;
+    border: 0.1vw solid #ebff05;
+    padding: 1vw 1.4vw;
+    border-radius: 0.6vw;
+    color: #ebff05;
+    margin-left: 40vw;
+    margin-top: -2vw;
+    font-weight: bold;
+    position: absolute;
+    font-size: 0.8vw;
+    cursor: pointer;
+}
+#boton.active{
+margin-left: 15.8vw;
+}
+#boton .btn{
+    font-size: 1vw;
+    left: 11vw;
+    cursor: pointer;    
+    position: absolute;
+
+}
+#boton .btn span{
+    display: block;
+    font-size: 2vw;
 }
