@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="images/money.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>BotsDolar</title>
+  
+<!-- OVERLAY -->
+</head>
+    <a class="redes">
+        <a href="https://github.com/bots304yt">
+            <img id="github" src="../BotsWeb/images/github.png"></img>
+        </a>
+        <a href="https://www.instagram.com/botss304/">
+            <img id="instagram" src="../BotsWeb/images/insta.png"></img>
+        </a>
+        <a href="https://twitter.com/bots304yt">
+            <img id="twitter" src="../BotsWeb/images/twitter.png"></img>
+        </a>
+        <a href="https://www.twitch.tv/bots304ytt">
+            <img id="twitch" src="../BotsWeb/images/twitch.png"></img>
+        </a>
+        <a id="linea">.</a>
+        <a id="linea2">.</a>
+        <a id="gmail" href="mailto:bots304yt@gmail.com">bots304yt@gmail.com</a>
+    </a>
+<explorador>
+    <a class="redirecciones">
+            <a id="Proyectos" href="https://github.com/bots304yt">
+                <n id="n1">01.</n>
+                <r id="r1">Proyectos</r>
+            </a>
+            <a id="Contacto" href="https://twitter.com/bots304yt">
+                <n id="n2">02.</n>
+                <r id="r2">Contacto</r>
+            </a>
+            <a id="Conocimientos" href="../BotsWeb/html/conocimientos.html">
+                <n id="n3">03.</n>
+                <r id="r3">Conocimientos</r>
+            </a>
+    </a>
+
+</explorador>
+<imagenes>
+    <img class="logo" src="../BotsWeb/images/logo.png" onclick="window.location.href = '../BotsWeb/index.html'"></imagenes>
+</imagenes>
+</html>
+
+<!-- CODIGO -->
+<body>
+    <div class="explain">
+        <p id="titlep" onclick="blocks()">Convierte el valor de tu divisa a otro</p>
+        <p id="subtitlep"> selecciona de que divisa a que divisa quieres hacer la conversion y inserta la cantidad que deseas convertir</p>
+    </div>
+        <input class="inputs" id="euro" type="number" value="1" data-cambio="1" step="0.25" onChange="valorCambiado(this)">
+        <input class="inputs" id="resultado" type="number" readonly="true" ></input>
+    <div class="drawfs">
+        <select name="drawfs1" id="drawfs1" onChange="valorCambiado(this)">
+            <option>EUR</option>
+            <option>USD</option>
+            <option>GBP</option>
+            <option>BTC</option>
+        </select> 
+        <select name="drawfs2" id="drawfs2" onChange="valorCambiado(this)">
+            <option>EUR</option>
+            <option>USD</option>
+            <option>GBP</option>
+            <option>BTC</option>
+        </select> 
+    </div>
+    <div class="checkboxx">
+        <p id="checkboxp">Representacion visual</p>
+        <p id="refreshp">Refresh</p>
+        <img id="refreshbtn" onclick="blocks()" src="images/refresh.png"></img>
+        <input type="checkbox" id="checkbox">
+    </div>
+    <div class="blocks">
+        <p id="block1">.</p>
+        <p id="block2">.</p>
+    </div>
+</div>
+    <script src="scripts.js" ></script>
+</body>

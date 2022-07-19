@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* OVERLAY */
+a{
+    text-decoration: none;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo{
+    margin-top: -30vw;
+    margin-left: 1.3vw;
+    border-radius: 0.3vw;
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+    cursor: pointer;
+}
+n{
+    margin-top: -30vw;
+    margin-left: 0vw;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 0.7vw;
+    color: #ebff05;
+    position: absolute;
+
+}
+r{
+    margin-top: -30.08vw;
+    margin-left: 0vw;
+    font-weight: 0.4vw;
+    font-size: 0.8vw;
+    font-family: 'Roboto Mono', monospace;
+    color: #8892b0;
+    position: absolute;
+}
+#n1{
+    margin-left: 78vw;
+}
+#r1{
+    margin-left: 79.6vw;
+
+}
+#n2{
+    margin-left: 85vw;
+}
+#r2{
+    margin-left: 86.5vw;
+}
+#n3{
+    margin-left: 91.2vw;
+}
+#r3{
+    margin-left: 92.6vw;
+}
+.redes{
+    display: flex;
+    text-align: center;
+    margin-top: 30.6vw;
+    
+}
+#github{
+    margin-top: 3vw;
+    margin-left: 2.2vw;
+    width: 0.9vw;
+    height: 1vw;
+    position: absolute;
+    cursor: pointer;
+}
+#instagram{
+    margin-left: 2.2vw;
+    margin-top: 5.8vw;
+    width: 1vw;
+    height: 1vw;
+    position: absolute;
+    cursor: pointer;
+}
+#twitter{
+    margin-left: 2.2vw;
+    margin-top: 8.4vw;
+    width: 1.1vw;
+    height: 1vw;
+    position: absolute;
+    cursor: pointer;
+}
+#twitch{
+    margin-left: 1.9vw;
+    margin-top: 10.8vw;
+    width: 1.8vw;
+    height: 1.7vw;
+    position: absolute;
+    cursor: pointer;
+}
+#linea{
+    margin-top: 13vw;
+    margin-left: 2.6vw;
+    padding-top: 3.7vw;
+    border-left: 0.1vw solid white;
+    color: transparent;
+    position: absolute;
+}
+#linea2{
+    margin-top: 13vw;
+    margin-left: 97vw;
+    padding-top: 3.7vw;
+    border-left: 0.1vw solid white;
+    color: transparent;
+    position: absolute;
+}
+
+#github:hover{
+    margin-top: 2.8vw;
+}
+#instagram:hover{
+    margin-top: 5.6vw;
+}
+#twitter:hover{
+    margin-top: 8.2vw;
+}
+#twitch:hover{
+    margin-top: 10.7vw;
+}
+
+#gmail{
+    float: left;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: 93vw;
+    margin-top: 7vw;
+    color: #8892b0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+#gmail:hover{
+    color: #ebff05;
+    margin-top: 6.8vw;
+}
+/* CODIGO */
+body {
+    background-color: #0c1930;
+    position: absolute;
+}
+
+.divisa{
+    border-width: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10vw;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+#drawfs1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d4d4d4;
+    background-color: #08101d;
+    border: none;
+    border-radius: 0.8vw;
+    padding-left: 0.5vw;
+    margin-top: -20vw;
+    margin-left: 39.9vw;
+    height: 2.1vw;
+    width: 3vw;
+    position: absolute;
+    font-size: 0.72vw;
+
+}
+#drawfs2{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d4d4d4;
+    background-color: #08101d;
+    border: none;
+    border-radius: 0.8vw;
+    height: 2.1vw;
+    width: 3vw;
+    padding-left: 0.5vw;
+    margin-top: -20vw;
+    margin-left: 54.9vw;
+    position: absolute;
+    font-size: 0.72vw;
+}
+#euro{
+    background-color: #08101d;
+    border: none;
+    color: #d4d4d4;
+    font-size: 1vw;
+    border-radius: 2vw;
+    padding-left: 0.8vw;
+    height: 2vw;
+    width: 12vw;
+    margin-left: 30.01vw;
+    margin-top: -20vw;
+    backdrop-filter: 5px;
+    position: absolute;
+}
+#resultado{
+    background-color: #08101d;
+    border: none;
+    color: #d4d4d4;
+    font-size: 1vw;
+    border-radius: 2vw;
+    padding-left: 0.8vw;
+    height: 2vw;
+    width: 12vw;
+    margin-left: 45.3vw;
+    margin-top: -20vw;
+    backdrop-filter: 5px;
+    position: absolute;
+}
+
+
+#titlep{
+    color: #ebff05;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1vw;
+    position: absolute;
+    margin-top: -28vw;
+    margin-left: 33VW;
+    width: 23vw;
+}
+#subtitlep{
+    color: #8892b0;
+    font-size: 0.9vw;
+    position: absolute;
+    margin-top: -25vw;
+    margin-left: 34.5VW;
+    width: 20vw;
+}
+.blocks{
+    margin-left: 31vw;
+    margin-top: -17vw;
+    border-top: 0.1vw solid rgb(0, 0, 0);
+    padding-left: 26vw;
+    font-size: 0.1vw;
+}
+#block1{
+    background-color: rgb(0, 0, 0);
+    color: transparent;
+    margin-left: -20vw;
+    padding-left: 2vw;
+    position: absolute; 
+}
+#block2{
+    background-color: rgb(0, 0, 0);
+    color: transparent;
+    margin-left: -7vw;
+    padding-left: 2vw;
+    position: absolute; 
+
+}
+.checkboxx{
+    margin-top: -16.6vw;
+    margin-left: 30vw;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#checkbox{
+    width: 2vw;
+    block-size: 1vw;
+    border-radius: 6vw;
+    border: none;
+    background-color: #0a1527;
+    position: absolute;
+}
+#checkboxp{
+    margin-left: -7.2vw;
+    margin-top: 0.1vw;
+    font-size: 0.8vw;
+    color: #535c75;
+    position: absolute;
+}
+#refreshbtn{
+    position:  absolute;
+    margin-top: 1.6vw;
+    margin-left: 0.4vw;
+    height: 1.5vw;
+    cursor: pointer;
+}
+#refreshp{
+    position:  absolute;
+    margin-top: 1.8vw;
+    margin-left: -2.3vw;
+    color: #59637e;
+    font-size: 0.8vw;
+}
+#refreshbtn:hover{
+    margin-top: 1.5vw;
+    margin-left: 0.3vw;
+    height: 1.8vw;
+}
