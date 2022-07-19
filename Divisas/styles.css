@@ -305,17 +305,13 @@ body {
     position: absolute;
 }
 #cambio{
-    display: none;
-    visibility: hidden;
+    position: absolute;
+    margin-top: 28vw;
+    margin-left: 39vw;
+    width: 6vw;
 }
     
 @media only screen and (max-width : 900px) {
-    #cambio{
-        position: absolute;
-        margin-top: 28vw;
-        margin-left: 39vw;
-        width: 6vw;
-    }
     #euro{
         width: 40vw;
         height: 6vw;
