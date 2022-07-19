@@ -159,7 +159,6 @@ body {
     margin-left: 10vw;
 }
 
-
 #drawfs1{
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -169,8 +168,8 @@ body {
     border: none;
     border-radius: 0.8vw;
     padding-left: 0.5vw;
-    margin-top: -20.1vw;
-    margin-left: 39.7vw;
+    margin-top: -20.06vw;
+    margin-left: 39.8vw;
     height: 2.1vw;
     width: 3vw;
     position: absolute;
@@ -188,8 +187,8 @@ body {
     height: 2.1vw;
     width: 3vw;
     padding-left: 0.5vw;
-    margin-top: -20.1vw;
-    margin-left: 54.7vw;
+    margin-top: -20.06vw;
+    margin-left: 54.8vw;
     position: absolute;
     font-size: 0.72vw;
 }
