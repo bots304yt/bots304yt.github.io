@@ -5,10 +5,10 @@ function blocks(){
   if(document.getElementById("checkbox").checked){
   let input1 = document.getElementById("euro").value;
   let input2 = document.getElementById("resultado").value;
-  element1.style.paddingBottom = ((Math.log(input1) / Math.log(10)) * 100) + "px";
-  element2.style.paddingBottom = ((Math.log(input2) / Math.log(10)) * 100) + "px";
+  element1.style.paddingBottom = ((Math.log(input1) / Math.log(9)) * 100) + "px";
+  element2.style.paddingBottom = ((Math.log(input2) / Math.log(9)) * 100) + "px";
 
-  console.log("1: " + ((Math.log(input1) / Math.log(4)) * 100) + " 2: " + ((Math.log(input2) / Math.log(4)) * 100))
+  console.log("1: " + ((Math.log(input1) / Math.log(9)) * 100) + " 2: " + ((Math.log(input2) / Math.log(9)) * 100))
   }else{
     element1.style.paddingBottom = "0px";
     element2.style.paddingBottom = "0px";
@@ -29,9 +29,4 @@ function valorCambiado(input) {
   .then(response => response.json())
   .then(data => document.getElementById("resultado").value = data.result)
   .catch(error => console.log('error', error))
-  
-}
-function getDay(){
-  const today = new Date();
-  console.log(today);
 }

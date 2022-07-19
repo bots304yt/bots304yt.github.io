@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 /* OVERLAY */
+
+
 a{
     text-decoration: none;
 
@@ -89,17 +91,17 @@ r{
     cursor: pointer;
 }
 #twitch{
-    margin-left: 1.9vw;
-    margin-top: 10.8vw;
-    width: 1.8vw;
-    height: 1.7vw;
+    margin-left: 1.75vw;
+    margin-top: 10.2vw;
+    width: 2vw;
+    height: 2vw;
     position: absolute;
     cursor: pointer;
 }
 #linea{
     margin-top: 13vw;
     margin-left: 2.6vw;
-    padding-top: 3.7vw;
+    height: 6.5vw;
     border-left: 0.1vw solid white;
     color: transparent;
     position: absolute;
@@ -107,7 +109,7 @@ r{
 #linea2{
     margin-top: 13vw;
     margin-left: 97vw;
-    padding-top: 3.7vw;
+    height: 6.5vw;
     border-left: 0.1vw solid white;
     color: transparent;
     position: absolute;
@@ -123,7 +125,7 @@ r{
     margin-top: 8.2vw;
 }
 #twitch:hover{
-    margin-top: 10.7vw;
+    margin-top: 9.9vw;
 }
 
 #gmail{
@@ -143,10 +145,6 @@ r{
     margin-top: 6.8vw;
 }
 /* CODIGO */
-body {
-    background-color: #0c1930;
-    position: absolute;
-}
 
 .divisa{
     border-width: 1px;
@@ -158,6 +156,7 @@ body {
     text-align: center;
     margin-left: 10vw;
 }
+
 #drawfs1 {
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -299,4 +298,195 @@ body {
     margin-top: 1.5vw;
     margin-left: 0.3vw;
     height: 1.8vw;
+}
+
+body {
+    background-color: #0c1930;
+    position: absolute;
+}
+#cambio{
+    position: absolute;
+    margin-top: 28vw;
+    margin-left: 39vw;
+    width: 6vw;
+}
+    
+@media only screen and (max-width : 900px) {
+    #euro{
+        width: 40vw;
+        height: 6vw;
+        margin-left: 20vw;
+        margin-top: 20vw;
+        font-size: 4vw;
+    }
+    #drawfs1{
+        width: 12vw;
+        height: 6vw;
+        margin-top: 20.3vw;
+        margin-left: 62vw;
+        font-size: 3vw;
+    }
+    #resultado{
+        width: 40vw;
+        height: 6vw;
+        margin-left: 20vw;
+        margin-top: 35vw;
+        font-size: 4vw;
+    }
+    #drawfs2{
+        width: 12vw;
+        height: 6vw;
+        margin-top: 35.3vw;
+        margin-left: 62vw;
+        font-size: 3vw;
+    }
+    #titlep{
+        font-size: 4vw;
+        width: 98vw;
+        margin-left: 4vw;
+        margin-top: -15vw;
+    }
+    #subtitlep{
+        font-size: 4vw;
+        width: 98vw;
+        margin-left: 5vw;
+        margin-top: -5vw;
+    }
+    n{
+        font-size: 1.9vw;
+    
+    }
+    r{
+        font-size: 2.2vw;
+        margin-top: -30.4vw;
+    }
+    #n1{
+        margin-left: 43vw;
+    }
+    #r1{
+        margin-left: 47vw;
+
+    }
+    #n2{
+        margin-left: 60vw;
+    }
+    #r2{
+        margin-left: 64vw;
+
+    }
+    #n3{
+        margin-left: 76vw;
+
+    }
+    #r3{
+        margin-left: 80vw;
+
+    }
+    .logo{
+        height: 5vw;
+        width: 5vw;
+        margin-top: -31vw;
+        border-radius: 1.2vw;
+    }
+    .checkboxx{
+        display: none;
+        visibility: hidden;
+    }
+    .blocks{
+        display: none;
+        visibility: hidden;
+    }
+    /* OVERLAY */
+    .redes{
+        display: flex;
+        text-align: center;
+        margin-top: 30.6vw;
+        
+    }
+    #twitch{
+        margin: 65vw 27vw 0vw;
+        width: 7vw;
+        height: 7vw;
+        position: absolute;
+        cursor: pointer;
+    }
+    #twitter{
+        margin: 66vw 42vw 0vw;
+        width: 5vw;
+        height: 5vw;
+        position: absolute;
+        cursor: pointer;
+    }
+    #instagram{
+        margin: 66vw 56vw 0vw;
+        width: 5vw;
+        height: 5vw;
+        position: absolute;
+        cursor: pointer;
+    }
+    #github{
+        margin: 66vw 69vw 0vw;
+        width: 5vw;
+        height: 5vw;
+        position: absolute;
+        cursor: pointer;
+    }  
+    #github:hover{
+        margin-top: 65.6vw;
+    }
+    #instagram:hover{
+        margin-top: 65.6vw;
+    }
+    #twitter:hover{
+        margin-top: 65.6vw;
+    }
+    #twitch:hover{
+        margin-top: 64.6vw;
+    }
+    #linea{
+    margin-top: 56vw;
+    height: 25vw;
+    margin-left: 11vw;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+          
+    }
+    #linea2{
+    margin-top: 56vw;
+    height: 25vw;
+    margin-left: 90vw;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    }
+    
+    #gmail{
+        float: left;
+        transform: rotate(90deg);
+        margin: 92vw 72vw 0vw;
+        position: absolute;
+        cursor: pointer;
+        color: #8892b0;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4vw;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #gmail:hover{
+        color: #ebff05;
+        margin-top: 91.8vw;
+    }
+}
+@media only screen and (min-width : 901px) {
+    #cambio{
+        display: none;
+        visibility: hidden;
+    }
 }
