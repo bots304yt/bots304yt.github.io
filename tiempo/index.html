@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>Tiempo</title>
+    <link rel="icon" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="tiempo()">
+    <tiempo onload="getDay()" >
+        <div class="resumen">
+            <p id="details"">Bienvenido de nuevo</p>
+        </div>
+        <div class="temperatura">
+            <p id="resultado" onclick="tiempo()">0</p>
+            <p id="cels">°C</p>
+            <hr id="separador">
+            <p id="far">°F</p>
+            <p id="day">asd</p>
+
+        </div>
+        <div class="imagenes">
+            <img id="tiempo" src="../assets/images/weather/nublado.png">
+            <img id="fondo" src="../assets/images/weather/fondo-nublado.png">
+        </div>
+        <div class="details">
+            <div class="sntemp">
+                <img id="termometro" src="../assets/images/weather/thermometer-white.png">
+                <p id="snp">sensacion termica</p>
+                <p id="snr">0</p>
+                <hr class="snbox">
+            </div>
+            <div class="humedad">
+                <img id="gota" src="../assets/images/weather/water_drop.png">
+                <p id="hump">humedad</p>
+                <p id="humr">0</p>
+                <hr class="humbox">
+            </div>
+            <div class="uv">
+                <img id="rayo" src="../assets/images/weather/bolt.png">
+                <p id="uvp">UV</p>
+                <p id="uvr">0</p>
+                <hr class="uvbox">
+            </div>
+            <div class="precip">
+                <img id="precipimg" src="../assets/images/weather/water_drop.png">
+                <p id="precipp">precipitaciones</p>
+                <p id="precipr">0</p>
+                <hr class="precipbox">
+            </div>
+            <div class="viento">
+                <img id="vientoimg" src="../assets/images/weather/water_drop.png">
+                <p id="vientop">viento</p>
+                <p id="vientor">0</p>
+                <hr class="vientobox">
+            </div>
+            <div class="visibilidad">
+                <img id="visibimg" src="../assets/images/weather/water_drop.png">
+                <p id="visibp">visibilidad</p>
+                <p id="visibr">0</p>
+                <hr class="visibbox">
+            </div>
+        </div>
+    </tiempo>
+    <script src="scripts.js" ></script>
+</body>
