@@ -5,6 +5,12 @@
 body{
     background-color: #0c1930;
 }
+.noseleccionable{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
 .logo{
     margin-top: -32vw;
     margin-left: 1.3vw;
@@ -142,8 +148,6 @@ n:hover{
 }
 #r3{
     margin-left: 92.6vw;
-    font-weight: bold;
-    color: #4b5268;
 
 }
 /* Lenguajes */
