@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+    .noseleccionable{
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+    .footer{
+        margin: 209vw -1vw;
+        position: absolute;
+    }
+    #background{
+        background-color: #000000;
+        width: 104vw;
+        border: none;
+        height: 4vw;
+        position: absolute;
+    }
+
+    #copyright{
+        position: absolute;
+        width: 21vw;
+        margin: 1.7vw 6vw;
+    }
+    #error{
+        position: absolute;
+        display: none;
+        margin: 113vw 0vw 0vw 35vw;
+            /*top, right, bottom, left*/
+        width: 56vw;
+        font-size: 4vw;
+        background-color: #86000018;
+        border-radius: 2vw;
+        border: 0.4vw solid #1b0505;
+        padding: 1vw 0vw 1vw 3vw;
+    }
+    #tiempo{
+        display: none;
+    }
+    #separador{
+        display: none;
+    }
+    .temperatura{
+        font-size: 20vw;
+        color: #1f2020;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: absolute;
+        margin-left: 30vw;
+    }
+    body{
+        background-color: #0a0a0a;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.6vw;
+        color: #8892b0;
+    }
+    #fondo{
+        margin: 10vw 0vw 0vw 3vw;
+        width: 92vw;
+        height: 90vw;
+        object-fit: cover;
+        position: absolute;
+        z-index: -2;
+        border-radius: 2vw;
+    }
+    .temperatura{
+        margin: 90vw 2vw;
+        color: #666666;
+
+    }
+    #resultado{
+        font-size: 20vw;
+        border: none;
+        border-radius: 2vw;
+        margin: 10.5vw 2vw;
+        position: absolute;
+    }
+    #cels{
+        margin: 11.2vw 23vw;
+        font-size: 19vw;
+
+    }
+    #far{
+        display: none;
+    }
+    #day{
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-size: 3vw;
+        margin: -11vw 3vw;
+        /*top, right, bottom, left*/
+    }
+    #hora{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #666666;
+        font-size: 4vw;
+        margin: 2.2vw;
+        display: block;
+        position: absolute;
+    }
+    #saludo{
+        display: none;
+    }
+    #detalles{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 3.5vw;
+        color: #c2c2c2;
+        position: absolute;
+        margin: 133vw 3vw;
+    }
+    /* SENSACION TERMICA */
+
+    #termometro{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+
+    }
+    #snp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 3.4vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #snr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+
+    }
+    .sntemp{
+        margin: 140vw 2vw;
+        position: absolute;
+
+    }
+    .snbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0a1529;
+        padding: 5vw 3vw 1vw 3vw;
+        /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+
+
+    /* HUMEDAD */
+    #gota{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+
+    }
+    #hump{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 9vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #humr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .humedad{
+        margin: 140vw 34.5vw;
+        position: absolute;
+    }
+    .humbox{
+        background-color: #0a1529;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+        width: 23vw;
+        height: 23vw;    
+    }
+    
+    /* RAYOS UV */
+    #rayo{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #uvp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 12vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #uvr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .uv{
+        margin: 140vw 67vw;
+        position: absolute;
+    }
+    .uvbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0a1529;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+
+    }
+    /* PRECIPITACIONES */
+    #precipimg{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #precipp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 5vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #precipr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .precip{
+        margin: 174vw 2vw;
+        position: absolute;
+        
+    }
+    .precipbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0a1529;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+    /* VIENTO */
+    #vientoimg{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #vientop{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 10.4vw;
+        width: 24vw;
+        position: absolute;
+    }
+
+    #vientor{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .viento{
+        margin: 174vw 34.5vw;
+        position: absolute;
+
+    }   
+    .vientobox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0a1529;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+    /* VISIBILIDAD */
+    #visibimg{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #visibp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 8.4vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #visibr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .visibilidad{
+        margin: 174vw 67vw;
+        margin-bottom: 10vw;
+        position: absolute;
+    }
+    .visibbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0a1529;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;    
+    }

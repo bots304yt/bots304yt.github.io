@@ -2,19 +2,23 @@
 <head>
     <title>Tiempo</title>
     <link rel="icon" href="../assets/images/logo.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="(min-device-width : 681px)" href="stylespc.css">
+    <link rel="stylesheet" media="(min-device-width : 320px) and (max-device-width : 680px)" href="stylest.css"">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body onload="tiempo()">
+    <p id="error">❗ acepta el uso de tu ubicación para poder proceder</p>
     <tiempo onload="getDay()" class="noseleccionable">
         <div class="resumen">
-            <p id="details" >Bienvenido de nuevo</p>
+            <p id="hora" >00:00</p>
+            <p id="saludo" >Bienvenido de nuevo</p>
         </div>
         <div class="temperatura">
             <p id="resultado">0</p>
             <p id="cels">°C</p>
             <hr id="separador">
             <p id="far">°F</p>
-            <p id="day">asd</p>
+            <p id="day">VIE., 11 DE ENERO</p>
 
         </div>
         <div class="imagenes">
@@ -22,15 +26,16 @@
             <img id="fondo" src="../assets/images/weather/fondo-nublado.png">
         </div>
         <div class="details">
+            <p id="detalles" >DETALLES</p>
             <div class="sntemp">
                 <img id="termometro" src="../assets/images/weather/thermometer-white.png">
-                <p id="snp">sensacion termica</p>
+                <p id="snp">Sensación termica</p>
                 <p id="snr">0</p>
                 <hr class="snbox">
             </div>
             <div class="humedad">
                 <img id="gota" src="../assets/images/weather/water_drop.png">
-                <p id="hump">humedad</p>
+                <p id="hump">Humedad</p>
                 <p id="humr">0</p>
                 <hr class="humbox">
             </div>
@@ -41,24 +46,28 @@
                 <hr class="uvbox">
             </div>
             <div class="precip">
-                <img id="precipimg" src="../assets/images/weather/water_drop.png">
-                <p id="precipp">precipitaciones</p>
+                <img id="precipimg" src="../assets/images/weather/precipitaciones.png">
+                <p id="precipp">Precipitaciones</p>
                 <p id="precipr">0</p>
                 <hr class="precipbox">
             </div>
             <div class="viento">
-                <img id="vientoimg" src="../assets/images/weather/water_drop.png">
-                <p id="vientop">viento</p>
+                <img id="vientoimg" src="../assets/images/weather/wind.png">
+                <p id="vientop">Viento</p>
                 <p id="vientor">0</p>
                 <hr class="vientobox">
             </div>
             <div class="visibilidad">
-                <img id="visibimg" src="../assets/images/weather/water_drop.png">
-                <p id="visibp">visibilidad</p>
+                <img id="visibimg" src="../assets/images/weather/visibility.png">
+                <p id="visibp">Visibilidad</p>
                 <p id="visibr">0</p>
                 <hr class="visibbox">
             </div>
         </div>
     </tiempo>
-    <script src="scripts.js" ></script>
+    <div class="footer">
+        <hr id="background">
+        <p id="copyright">©Copyright 2020-22 bots304yt</p>
+    </div>
+    <script src="scripts.js"></script>
 </body>
