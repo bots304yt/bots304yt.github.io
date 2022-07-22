@@ -24,16 +24,6 @@ body{
     padding: 1vw 0vw 1vw 3vw;
 
 }
-.footer{
-    display: none;
-}
-#background{
-    display: none;
-}
-
-#copyright{
-    display: none;
-}
 
 #detalles{
     display: none;
@@ -300,11 +290,6 @@ body{
     z-index: -1;
 
 }
-#hora{
-    display: none;       
-}
-
-/* POLO QUIERE QUITAR ESTO */
 #saludo{
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
@@ -313,29 +298,19 @@ body{
     position: absolute;
 }
 
-
-
-#gmail{
+/* DISPLAY NONE */
+.redirecciones{
     display: none;
 }
-#twitch{
+.redes{
     display: none;
 }
-#instagram{
+.footer{
     display: none;
 }
-#twitter{
+#hora{
     display: none;
 }
-#github{
-    display: none;
-}
-#gmail{
-    display: none;
-}
-#linea1{
-    display: none;
-}
-#linea2{
+#btton{
     display: none;
 }
