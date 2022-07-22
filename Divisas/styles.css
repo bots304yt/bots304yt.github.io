@@ -316,7 +316,7 @@ body {
     width: 6vw;
 }
     
-@media only screen and (max-width : 900px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
     #euro{
         width: 40vw;
         height: 6vw;
