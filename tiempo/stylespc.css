@@ -3,6 +3,8 @@
 body{
     background-color: #0c1930;
     background-image: url(../assets/images/weather/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
@@ -309,4 +311,31 @@ body{
     color: #1f2020;
     margin: 6vw 37vw;
     position: absolute;
+}
+
+
+
+#gmail{
+    display: none;
+}
+#twitch{
+    display: none;
+}
+#instagram{
+    display: none;
+}
+#twitter{
+    display: none;
+}
+#github{
+    display: none;
+}
+#gmail{
+    display: none;
+}
+#linea1{
+    display: none;
+}
+#linea2{
+    display: none;
 }
