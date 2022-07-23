@@ -43,9 +43,6 @@
     #tiempo{
         display: none;
     }
-    #separador{
-        display: none;
-    }
     .temperatura{
         font-size: 20vw;
         color: #1f2020;
@@ -84,9 +81,6 @@
         margin: 11.2vw 23vw;
         font-size: 19vw;
 
-    }
-    #far{
-        display: none;
     }
     #day{
         font-weight: bold;
@@ -476,4 +470,7 @@
         font-size: 4vw;
         color: #666666;
         position: absolute;
+    }
+    #saludom{
+        display: none;
     }
