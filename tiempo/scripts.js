@@ -1,1 +1,173 @@
-var _0x55487f=_0x5c76;(function(_0xa38f1a,_0x367660){var _0x192ed9=_0x5c76,_0x4eb5d2=_0xa38f1a();while(!![]){try{var _0x2e94bb=parseInt(_0x192ed9(0xe0))/0x1*(-parseInt(_0x192ed9(0x101))/0x2)+parseInt(_0x192ed9(0xed))/0x3+parseInt(_0x192ed9(0xda))/0x4*(-parseInt(_0x192ed9(0x125))/0x5)+-parseInt(_0x192ed9(0xea))/0x6+parseInt(_0x192ed9(0x112))/0x7+-parseInt(_0x192ed9(0xee))/0x8+parseInt(_0x192ed9(0xfe))/0x9*(parseInt(_0x192ed9(0xfa))/0xa);if(_0x2e94bb===_0x367660)break;else _0x4eb5d2['push'](_0x4eb5d2['shift']());}catch(_0x396af2){_0x4eb5d2['push'](_0x4eb5d2['shift']());}}}(_0x597a,0xdb7c5));var requestOptions2={'method':_0x55487f(0xec),'headers':{'x-api-key':_0x55487f(0x110),'Content-type':'application/json'}};function tiempo(){var _0x2f1b3b=_0x55487f;setCorrectMargin(),navigator[_0x2f1b3b(0x114)][_0x2f1b3b(0xf1)](function(_0x2610cd){var _0xc0ea60=_0x2f1b3b,_0x3b0555=_0x2610cd[_0xc0ea60(0x124)][_0xc0ea60(0xef)],_0x2610cd=_0x2610cd[_0xc0ea60(0x124)][_0xc0ea60(0xdb)];fetch(_0xc0ea60(0x10f)+_0x3b0555+_0xc0ea60(0xf4)+_0x2610cd,requestOptions2)['then'](_0x53921f=>_0x53921f[_0xc0ea60(0x106)]())[_0xc0ea60(0x11c)](_0x43a5e0=>(document['getElementById'](_0xc0ea60(0xeb))[_0xc0ea60(0x103)]=(0x5*(_0x43a5e0[_0xc0ea60(0x11d)][_0xc0ea60(0x120)]-0x20)/0x9)[_0xc0ea60(0x123)](0x0)+'')&&(document[_0xc0ea60(0x117)]('snr')['innerHTML']=(0x5*(_0x43a5e0['data']['apparentTemperature']-0x20)/0x9)[_0xc0ea60(0x123)](0x0)+'°C')&&(document['getElementById'](_0xc0ea60(0xe3))[_0xc0ea60(0x103)]=(0x64*_0x43a5e0[_0xc0ea60(0x11d)]['humidity'])[_0xc0ea60(0x123)](0x0)+'%')&&(document[_0xc0ea60(0x117)](_0xc0ea60(0x11f))[_0xc0ea60(0x103)]=_0x43a5e0[_0xc0ea60(0x11d)][_0xc0ea60(0xf3)]['toFixed'](0x0)+'km')&&(document[_0xc0ea60(0x117)](_0xc0ea60(0xdc))[_0xc0ea60(0x103)]=_0x43a5e0['data'][_0xc0ea60(0xf5)][_0xc0ea60(0x123)](0x0)+'')&&(document['getElementById'](_0xc0ea60(0x10a))['innerHTML']=_0x43a5e0[_0xc0ea60(0x11d)]['windSpeed'][_0xc0ea60(0x123)](0x0)+'mpH')&&setCorrectMargin())['catch'](_0x112506=>console[_0xc0ea60(0x102)]('error',_0x112506)),getDay();});}function getDay(){var _0xda46ce=_0x55487f,_0x596ee0,_0x32b9db=new Date();switch(_0x32b9db[_0xda46ce(0xe2)]()+0x1){case 0x1:_0x596ee0=_0xda46ce(0xde);break;case 0x2:_0x596ee0=_0xda46ce(0x10b);break;case 0x3:_0x596ee0=_0xda46ce(0x11e);break;case 0x4:_0x596ee0=_0xda46ce(0xf7);break;case 0x5:_0x596ee0=_0xda46ce(0xfb);break;case 0x6:_0x596ee0=_0xda46ce(0xe8);break;case 0x7:_0x596ee0='JULIO';break;case 0x8:_0x596ee0=_0xda46ce(0xfd);break;case 0x9:_0x596ee0=_0xda46ce(0xf6);break;case 0xa:_0x596ee0='OCTUBRE';break;case 0xb:_0x596ee0='NOVIEMBRE';break;case 0xc:_0x596ee0=_0xda46ce(0x104);}var _0xc65963;switch(_0x32b9db[_0xda46ce(0xe6)]()){case 0x0:_0xc65963=_0xda46ce(0xff);break;case 0x1:_0xc65963='LUN.';break;case 0x2:_0xc65963=_0xda46ce(0xdf);break;case 0x3:_0xc65963='MIE.';break;case 0x4:_0xc65963=_0xda46ce(0x105);break;case 0x5:_0xc65963=_0xda46ce(0xfc);break;case 0x6:_0xc65963='SAB.';break;}console[_0xda46ce(0x102)](_0x32b9db['getDay']()),(_0x32b9db=_0xc65963+',\x20'+_0x32b9db[_0xda46ce(0x121)]()+_0xda46ce(0xe4)+_0x596ee0,document['getElementById'](_0xda46ce(0x107))[_0xda46ce(0x103)]=_0x32b9db),getHour();}function getHour(){var _0x3638d7=_0x55487f;t=new Date();var _0x2524bd;t[_0x3638d7(0xe5)]()<0xa?_0x2524bd='0'+t[_0x3638d7(0xe5)]():_0x2524bd=t[_0x3638d7(0xe5)](),document[_0x3638d7(0x117)](_0x3638d7(0x109))[_0x3638d7(0x103)]=t[_0x3638d7(0x10e)]()+':'+_0x2524bd;}function setCorrectMargin(){var _0x2ee684=_0x55487f,_0x4f3727=window['matchMedia'](_0x2ee684(0x126)),_0x146e4d=document[_0x2ee684(0x117)](_0x2ee684(0xf9)),_0x4bb672=document['getElementById'](_0x2ee684(0xe3)),_0x29ae94=document[_0x2ee684(0x117)](_0x2ee684(0x10a)),_0x5ab12f=document[_0x2ee684(0x117)]('visibr'),_0x7a69af=document[_0x2ee684(0x117)](_0x2ee684(0x10d)),_0x2d44bb=document[_0x2ee684(0x117)]('resultado'),_0x3abdf3=document[_0x2ee684(0x117)](_0x2ee684(0x118));_0x4f3727[_0x2ee684(0xf0)]?(_0x146e4d[_0x2ee684(0x103)]<0xa?_0x146e4d[_0x2ee684(0x100)]['marginLeft']='11.6vw':_0x146e4d['style'][_0x2ee684(0xe7)]='5.8vw',_0x4bb672['innerHTML']<0xa?_0x4bb672[_0x2ee684(0x100)][_0x2ee684(0xe7)]=_0x2ee684(0xf2):_0x4bb672[_0x2ee684(0x100)]['marginLeft']=_0x2ee684(0x10c),_0x29ae94[_0x2ee684(0x103)]<0xa?_0x29ae94[_0x2ee684(0x100)][_0x2ee684(0xe7)]='11.6vw':_0x29ae94[_0x2ee684(0x100)][_0x2ee684(0xe7)]='2.8vw',_0x5ab12f['innerHTML']<0xa?_0x5ab12f[_0x2ee684(0x100)][_0x2ee684(0xe7)]=_0x2ee684(0xf2):_0x5ab12f['style'][_0x2ee684(0xe7)]=_0x2ee684(0xdd),_0x2d44bb['innerHTML']<0xa?_0x7a69af[_0x2ee684(0x100)][_0x2ee684(0xe7)]='13vw':_0x7a69af[_0x2ee684(0x100)]['marginLeft']=_0x2ee684(0x115)):(_0x146e4d[_0x2ee684(0x103)]<0xa?_0x146e4d[_0x2ee684(0x100)][_0x2ee684(0xe7)]=_0x2ee684(0xf8):_0x146e4d[_0x2ee684(0x100)]['marginLeft']=_0x2ee684(0x116),_0x4bb672[_0x2ee684(0x103)]<0xa?_0x4bb672[_0x2ee684(0x100)][_0x2ee684(0xe7)]=_0x2ee684(0xf8):_0x4bb672[_0x2ee684(0x100)]['marginLeft']=_0x2ee684(0x116),_0x29ae94['innerHTML']<0xa?_0x29ae94[_0x2ee684(0x100)]['marginLeft']=_0x2ee684(0xf8):_0x29ae94['style']['marginLeft']='1vw',_0x5ab12f[_0x2ee684(0x103)]<0xa?_0x5ab12f[_0x2ee684(0x100)][_0x2ee684(0xe7)]=_0x2ee684(0xf8):_0x5ab12f[_0x2ee684(0x100)][_0x2ee684(0xe7)]=_0x2ee684(0x108)),_0x146e4d[_0x2ee684(0x103)]==0x0&&_0x29ae94[_0x2ee684(0x103)]==0x0&&_0x4bb672[_0x2ee684(0x103)]==0x0&&_0x5ab12f['innerHTML']==0x0&&_0x2d44bb[_0x2ee684(0x103)]==0x0?_0x3abdf3['style'][_0x2ee684(0x122)]=_0x2ee684(0xe9):_0x3abdf3[_0x2ee684(0x100)][_0x2ee684(0x122)]=_0x2ee684(0x119);}function _0x5c76(_0x99e4ef,_0x11ce2a){var _0x597a0e=_0x597a();return _0x5c76=function(_0x5c7606,_0x3d8067){_0x5c7606=_0x5c7606-0xda;var _0x280da1=_0x597a0e[_0x5c7606];return _0x280da1;},_0x5c76(_0x99e4ef,_0x11ce2a);}function _0x597a(){var _0x59af75=['active','toggle','then','data','MARZO','visibr','temperature','getDate','display','toFixed','coords','60sOmbrS','(min-device-width\x20:\x20320px)\x20and\x20(max-device-width\x20:\x20680px)','453448QYlKGq','longitude','uvr','3.8vw','ENERO','MAR.','1nXlYnm','classList','getMonth','humr','\x20DE\x20','getMinutes','getDay','marginLeft','JUNIO','block','2550282TkmYUW','resultado','GET','2598804GNIcJa','12460424MgspTt','latitude','matches','getCurrentPosition','11.6vw','visibility','&lng=','uvIndex','SEPTIEMBRE','ABRIL','6vw','snr','39286470LBCpNM','MAYO','VIE.','AGOSTO','9LfFkgH','DOM.','style','1112654AxChjF','log','innerHTML','DICIEMBRE','JUE.','json','day','1vw','hora','vientor','FEBRERO','5.8vw','cels','getHours','https://api.ambeedata.com/weather/latest/by-lat-lng?lat=','5a56d0177f27d7692ed9c58f542696b542d6b8ede69cc43b1d0540defe53544a','more','23583xFSngz','btton','geolocation','23vw','1.8vw','getElementById','error','none'];_0x597a=function(){return _0x59af75;};return _0x597a();}function more(){var _0x45424e=_0x55487f;document[_0x45424e(0x117)](_0x45424e(0x111))[_0x45424e(0xe1)][_0x45424e(0x11b)](_0x45424e(0x11a)),document[_0x45424e(0x117)](_0x45424e(0x113))[_0x45424e(0xe1)][_0x45424e(0x11b)](_0x45424e(0x11a));}
+var requestOptions2 = { method: "GET", headers: { "x-api-key": "5a56d0177f27d7692ed9c58f542696b542d6b8ede69cc43b1d0540defe53544a", "Content-type": "application/json" } };
+function tiempo() {
+    setCorrectMargin();
+    navigator.geolocation.getCurrentPosition(function (e) {
+        var t = e.coords.latitude,
+            e = e.coords.longitude;
+        fetch("https://api.ambeedata.com/weather/latest/by-lat-lng?lat=" + t + "&lng=" + e, requestOptions2)
+            .then((e) => e.json())
+            .then(
+                (e) =>
+                    (document.getElementById("resultado").innerHTML = ((5 * (e.data.temperature - 32)) / 9).toFixed(0) + "") &&
+                    (document.getElementById("snr").innerHTML = ((5 * (e.data.apparentTemperature - 32)) / 9).toFixed(0) + "°C") &&
+                    (document.getElementById("humr").innerHTML = (100 * e.data.humidity).toFixed(0) + "%") &&
+                    (document.getElementById("visibr").innerHTML = e.data.visibility.toFixed(0) + "km") &&
+                    (document.getElementById("uvr").innerHTML = e.data.uvIndex.toFixed(0) + "") &&
+                    (document.getElementById("vientor").innerHTML = e.data.windSpeed.toFixed(0) + "mpH") &&
+                    (setCorrectMargin()))
+            .catch((e) => console.log("error", e)),
+            getDay();
+    });
+}
+function getDay() {
+    var e,
+        t = new Date();
+    switch (t.getMonth() + 1) {
+        case 1:
+            e = "ENERO";
+            break;
+        case 2:
+            e = "FEBRERO";
+            break;
+        case 3:
+            e = "MARZO";
+            break;
+        case 4:
+            e = "ABRIL";
+            break;
+        case 5:
+            e = "MAYO";
+            break;
+        case 6:
+            e = "JUNIO";
+            break;
+        case 7:
+            e = "JULIO";
+            break;
+        case 8:
+            e = "AGOSTO";
+            break;
+        case 9:
+            e = "SEPTIEMBRE";
+            break;
+        case 10:
+            e = "OCTUBRE";
+            break;
+        case 11:
+            e = "NOVIEMBRE";
+            break;
+        case 12:
+            e = "DICIEMBRE";
+    }
+    var wd;
+    switch (t.getDay()) {
+        case 0:
+            wd = "DOM.";
+            break;
+        case 1:
+            wd = "LUN.";
+            break;
+        case 2:
+            wd = "MAR.";
+            break;
+        case 3:
+            wd = "MIE.";
+            break;
+        case 4:
+            wd = "JUE.";
+            break;
+        case 5:
+            wd = "VIE.";
+            break;
+        case 6:
+            wd = "SAB.";
+            break;
+    }
+    console.log(t.getDay());
+    (t = (wd) +", "+ t.getDate() + " DE " + e), (document.getElementById("day").innerHTML = t);
+    getHour();
+}
+function getHour() {
+    t = new Date();
+    var minutos;
+    if(t.getMinutes() < 10){
+        minutos = "0" + t.getMinutes();
+    }else{
+        minutos = t.getMinutes();
+    }
+    document.getElementById("hora").innerHTML = (t.getHours() + ":" + minutos);
+
+}
+
+function setCorrectMargin(){
+    var x = window.matchMedia("(min-device-width : 320px) and (max-device-width : 680px)")
+    var snr = document.getElementById("snr");
+    var humr = document.getElementById("humr");
+    var vientor = document.getElementById("vientor");
+    var visibr = document.getElementById("visibr");
+    var cels = document.getElementById("cels");
+    var resultado = document.getElementById("resultado");
+    var error = document.getElementById("error");
+
+        if (x.matches) { 
+            if(snr.innerHTML < 10){
+                snr.style.marginLeft = "11.6vw";
+            }else{
+                snr.style.marginLeft = "5.8vw";
+        
+            }
+            if(humr.innerHTML < 10){
+                humr.style.marginLeft = "11.6vw";
+            }else{
+                humr.style.marginLeft = "5.8vw";
+            }
+            if(vientor.innerHTML < 10){
+                vientor.style.marginLeft = "11.6vw";
+            }else{
+                vientor.style.marginLeft = "2.8vw";
+            }
+            if(visibr.innerHTML < 10){
+                visibr.style.marginLeft = "11.6vw";
+            }else{
+                visibr.style.marginLeft = "3.8vw";
+            }
+            if(resultado.innerHTML < 10){
+                cels.style.marginLeft = "13vw";
+            }else{
+                cels.style.marginLeft = "23vw";
+            }
+        } else {
+            if(snr.innerHTML < 10){
+                snr.style.marginLeft = "6vw";
+            }else{
+                snr.style.marginLeft = "1.8vw";
+        
+            }
+            if(humr.innerHTML < 10){
+                humr.style.marginLeft = "6vw";
+            }else{
+                humr.style.marginLeft = "1.8vw";
+            }
+            if(vientor.innerHTML < 10){
+                vientor.style.marginLeft = "6vw";
+            }else{
+                vientor.style.marginLeft = "1vw";
+        
+            }
+            if(visibr.innerHTML < 10){
+                visibr.style.marginLeft = "6vw";
+            }else{
+                visibr.style.marginLeft = "1vw";
+            }
+        }
+        if(snr.innerHTML == 0 && vientor.innerHTML == 0 && humr.innerHTML == 0 && visibr.innerHTML == 0 && resultado.innerHTML == 0){
+            error.style.display = "block";
+        }else{
+            error.style.display = "none";
+        }
+}
+
+function more(){
+    document.getElementById('more').classList.toggle('active')
+    document.getElementById('btton').classList.toggle('active')
+}

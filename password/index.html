@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Generador de contraseñas | bots304yt</title>
+    <meta name="keywords" content="Portafolio, bots304yt, twitch, polo1245, minecraft">
+    <meta name="author" content="bots304yt@gmail.com">
+    <link rel="icon" href="../assets/images/profile.png">
+    <meta name="description" content="bots304yt">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+</head>
+<body onload="generate()">
+    <top>
+        <div class="redirecciones">
+            <img id="logo" src="https://pbs.twimg.com/profile_images/1550251500361973762/nt-zSasw_400x400.jpg" onclick="window.location.href = '../index.html'"" alt="bots304yt">
+            <div class="links">
+                <span id="n1">01.</span>  
+                <span><a href="https://github.com/bots304yt" class="r" id="r1">Proyectos</a></span>
+                <span id="n">02.</span>  
+                <span><a href="https://twitter.com/bots304yt" class="r" id="r2">Contacto</a></span>
+                <span id="n">03.</span>  
+                <span><a href="../Conocimientos/index.html" class="r" id="r3">Conocimientos</a></span>
+            </div>
+        </div>
+    </top>
+    <middle>
+        <div class="mtop">
+            <p>Generador de contraseñas seguras</p>
+            <img id="serugoimg" src="../assets/images/passw/strong.png" alt="">
+        </div>
+        <div class="center">
+            <img id="copiar" src="../assets/images/passw/refresh.png" alt="" onclick="generate()">
+            <img id="regenerar" src="../assets/images/copy.png" alt="" onclick="setValue()">
+            <input id="result" type="text" readonly="true" value="/T@Z!HZ!wk7GcQ3EU">
+            <p id="btxt">Personaliza la contraseña</p>
+
+        </div>
+        <div class="bottom">
+            <output id="longitudn">16</output>
+            <input id="longitud" type="range" min="1" max="50" value="16" list="tickmarks" oninput="setValue()">
+            <div class="inputs">
+                <span">ABC</span>
+                <input type="checkbox" id="mayuscb" checked="true">
+                <span>abc</span>
+                <input type="checkbox" id="minuscb" checked="true">
+                <span>123</span>
+                <input type="checkbox" id="numcb" checked="true">
+                <span>#$&</span>
+                <input type="checkbox" id="especialcb" checked="true">
+            </div>
+            <p id="sec">Este generador no  guarda su informacion en ningun momento, todas las contraseñas generadas se guardan localmente en su navegador</p>
+        </div>
+    </middle>
+    <footer>
+        <span id="copy">©Copyright 2020-22 bots304yt</span>
+        <div class="redes">
+            <a href="https://github.com/bots304yt">
+                <img id="github" src="../assets/images/github.png" alt=""></img>
+            </a>
+            <a href="https://www.instagram.com/botss304/">
+                <img id="instagram" src="../assets/images/insta.png" alt=""></img>
+            </a>
+            <a href="https://twitter.com/bots304yt">
+                <img id="twitter" src="../assets/images/twitter.png" alt=""></img>
+            </a>
+            <a href="https://www.twitch.tv/bots304yt">
+                <img id="twitch" src="../assets/images/twitch.png" alt="" ></img>
+            </a>
+        </div>
+    </footer>
+    <script src="scripts.js" ></script>
+</body>
