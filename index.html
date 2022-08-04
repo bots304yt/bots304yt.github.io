@@ -1,62 +1,111 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <head>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Botsweb | bots304yt</title>
-    <meta name="keywords" content="Portafolio, bots304yt, twitch, polo1245, minecraft">
-    <meta name="author" content="bots304yt@gmail.com">
-    <link rel="icon" href="assets/images/profile.png">
-    <meta name="description" content="bots304yt">
+    <title>Info Clima | bots304yt</title>
+    <link rel="icon" href="../assets/images/profile.png">
+    <link rel="stylesheet" media="(min-device-width : 681px)" href="stylespc.css">
+    <link rel="stylesheet" media="(max-device-width : 680px)" href="stylest.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
-<central>
-    <a class="aboutme">
-        <p id="minombre">Hello, my name is</p>
-        <p id="nombre">Bots304yt</p>
-        <p id="hagocosas">I do some stuff on the internet</p>
-        <a class="btn" href="tiempo/index.html">
-            <p id="boton" class="active">[beta] Info Clima</p>
-        </a>
-        <a id="divisas" href="Divisas/index.html">[beta] Cambio de moneda</a>
-        <script src="scripts.js"></script>
-        <input type="text" class="inputs">
-    
-</central>
-<body>
-    <a class="redes">
-        <a href="https://github.com/bots304yt">
-            <img id="github" src="assets/images/github.png" alt=""></img>
-        </a>
-        <a href="https://www.instagram.com/botss304/">
-            <img id="instagram" src="assets/images/insta.png" alt=""></img>
-        </a>
-        <a href="https://twitter.com/bots304yt">
-            <img id="twitter" src="assets/images/twitter.png" alt=""></img>
-        </a>
-        <a href="https://www.twitch.tv/bots304yt">
-            <img id="twitch" src="assets/images/twitch.png" alt=""></img>
-        </a>
-        <a id="linea">.</a>
-        <a id="linea2">.</a>
-        <a id="gmail" href="https://mail.google.com/mail/u/0/?fs=1&to=bots304yt@gmail.com&su=&body=&tf=cm">bots304yt@gmail.com</a>
-    </a>
-</body>
-<explorador>
-    <a class="redirecciones">
-            <a id="Proyectos" href="https://github.com/bots304yt">
-                <n id="n1">01.</n>
-                <r id="r1">Proyectos</r>
-            </a>
-            <a id="Contacto" href="https://twitter.com/bots304yt">
-                <n id="n2">02.</n>
-                <r id="r2">Contacto</r>
-            </a>
-            <a id="Conocimientos" href="Conocimientos/index.html">
-                <n id="n3">03.</n>
-                <r id="r3">Conocimientos</r>
-            </a>
-    </a>
+<body onload="tiempo()">
+    <p id="error">❗ acepta el uso de tu ubicación para poder proceder</p>
+    <tiempo onload="getDay()" class="noseleccionable">
+        <div class="resumen">
+            <p id="hora" >00:00</p>
+            <p id="saludo" >Bienvenido de nuevo</p>
+            <p id="saludom">(entra desde movil si quieres una mejor experiencia)</p>
+        </div>
+        <div class="temperatura">
+            <p id="resultado">0</p>
+            <p id="cels">°C</p>
+            <p id="day">VIE., 11 DE ENERO</p>
 
-</explorador>
-<imagenes>
-    <img class="logo" src="assets/images/profile.png" onclick="window.location.href = 'index.html'" alt="bots304yt"></imagenes>
-</imagenes>
+        </div>
+        <div class="imagenes">
+            <img id="tiempo" src="../assets/images/weather/nublado.png" alt="">
+            <img id="fondo" src="../assets/images/weather/fondo-nublado.png" alt="">
+        </div>
+        <div class="details">
+            <p id="detalles" >DETALLES</p>
+            <div class="sntemp">
+                <img id="termometro" src="../assets/images/weather/thermometer-white.png">
+                <p id="snp">Sensación termica</p>
+                <p id="snr">0</p>
+                <hr class="snbox">
+            </div>
+            <div class="humedad">
+                <img id="gota" src="../assets/images/weather/water_drop.png">
+                <p id="hump">Humedad</p>
+                <p id="humr">0</p>
+                <hr class="humbox">
+            </div>
+            <div class="uv">
+                <img id="rayo" src="../assets/images/weather/bolt.png">
+                <p id="uvp">UV</p>
+                <p id="uvr">0</p>
+                <hr class="uvbox">
+            </div>
+            <div class="precip">
+                <img id="precipimg" src="../assets/images/weather/precipitaciones.png">
+                <p id="precipp">Precipitaciones</p>
+                <p id="precipr">0</p>
+                <hr class="precipbox">
+            </div>
+            <div class="viento">
+                <img id="vientoimg" src="../assets/images/weather/wind.png">
+                <p id="vientop">Viento</p>
+                <p id="vientor">0</p>
+                <hr class="vientobox">
+            </div>
+            <div class="visibilidad">
+                <img id="visibimg" src="../assets/images/weather/visibility.png">
+                <p id="visibp">Visibilidad</p>
+                <p id="visibr">0</p>
+                <hr class="visibbox">
+            </div>
+        </div>
+        <div id="more" class="active">
+            <img id="btton" src="../assets/images/weather/threelines.png" onclick="more()">
+            <div class="redirecciones">
+                <a id="Proyectos" href="https://github.com/bots304yt">
+                    <n id="n1">01.</n>
+                    <r id="r1">Proyectos</r>
+                </a>
+                <a id="Contacto" href="https://twitter.com/bots304yt">
+                    <n id="n2">02.</n>
+                    <r id="r2">Contacto</r>
+                </a>
+                <a id="Conocimientos" href="../Conocimientos/index.html">
+                    <n id="n3">03.</n>
+                    <r id="r3">Conocimientos</r>
+                </a>
+            </div>
+            <div class="redes">
+                    <a href="https://github.com/bots304yt">
+                        <img id="github" src="../assets/images/github.png" alt=""></img>
+                    </a>
+                    <a href="https://www.instagram.com/botss304/">
+                        <img id="instagram" src="../assets/images/insta.png" alt=""></img>
+                    </a>
+                    <a href="https://twitter.com/bots304yt">
+                        <img id="twitter" src="../assets/images/twitter.png" alt=""></img>
+                    </a>
+                    <a href="https://www.twitch.tv/bots304yt">
+                        <img id="twitch" src="../assets/images/twitch.png" alt=""></img>
+                    </a>
+                    <hr id="linea">
+                    <hr id="linea2">
+                    <a id="gmail" href="https://mail.google.com/mail/u/0/?fs=1&to=bots304yt@gmail.com&su=&body=&tf=cm">bots304yt@gmail.com</a>
+                    <a href="../index.html">
+                        <img src="../assets/images/profile.png" id="profile" alt="bots304yt">
+                        <p id="profilep">main page</p>
+                    </a>
+
+            </div>
+    </div>
+</tiempo>
+    <div class="footer">
+        <a href="https://twitter.com/bots304yt"><p id="copyright">©Copyright 2020-22 bots304yt</p></a>
+        <hr id="background">
+    </div>
+    <script src="scripts.js"></script>
+</body>

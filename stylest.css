@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+    .noseleccionable{
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+    .footer{
+        margin: 209vw -1vw;
+        position: absolute;
+    }
+    #background{
+        background-color: #000000;
+        width: 104vw;
+        border: none;
+        height: 4vw;
+        position: absolute;
+    }
+
+    #copyright{
+        text-decoration: none;
+        color: #666666;
+        width: 21vw;
+        margin: 1.7vw 6vw;
+        position: absolute;
+    }
+    #error{
+        position: absolute;
+        display: none;
+        margin: 113vw 0vw 0vw 35vw;
+            /*top, right, bottom, left*/
+        width: 56vw;
+        font-size: 4vw;
+        background-color: #86000018;
+        border-radius: 2vw;
+        border: 0.4vw solid #1b0505;
+        padding: 1vw 0vw 1vw 3vw;
+    }
+    #tiempo{
+        display: none;
+    }
+    .temperatura{
+        font-size: 20vw;
+        color: #1f2020;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: absolute;
+        margin-left: 30vw;
+    }
+    body{
+        background-color: #0a0a0a;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.6vw;
+        color: #757985;
+    }
+    #fondo{
+        margin: 10vw 0vw 0vw 3vw;
+        width: 92vw;
+        height: 90vw;
+        object-fit: cover;
+        position: absolute;
+        z-index: -2;
+        border-radius: 2vw;
+    }
+    .temperatura{
+        margin: 90vw 2vw;
+        color: #666666;
+
+    }
+    #resultado{
+        font-size: 20vw;
+        border: none;
+        border-radius: 2vw;
+        margin: 10.5vw 2vw;
+        position: absolute;
+    }
+    #cels{
+        margin: 11.2vw 23vw;
+        font-size: 19vw;
+
+    }
+    #day{
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-size: 3vw;
+        margin: -11vw 3vw;
+        /*top, right, bottom, left*/
+    }
+    #hora{
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #666666;
+        font-size: 4vw;
+        margin: 2.2vw;
+        display: block;
+        position: absolute;
+    }
+    #saludo{
+        display: none;
+    }
+    #detalles{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 3.5vw;
+        color: #c2c2c2;
+        position: absolute;
+        margin: 133vw 0vw -4vw 3vw;
+    }
+    /* SENSACION TERMICA */
+
+    #termometro{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+
+    }
+    #snp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 3.4vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #snr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+
+    }
+    .sntemp{
+        margin: 140vw 2vw;
+        position: absolute;
+
+    }
+    .snbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0f0f0f;
+        padding: 5vw 3vw 1vw 3vw;
+        /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+
+
+    /* HUMEDAD */
+    #gota{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+
+    }
+    #hump{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 9vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #humr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .humedad{
+        margin: 140vw 36vw;
+        position: absolute;
+    }
+    .humbox{
+        background-color: #0f0f0f;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+        width: 23vw;
+        height: 23vw;
+    }
+    
+    /* RAYOS UV */
+    #rayo{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #uvp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 12vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #uvr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .uv{
+        margin: 140vw 70vw;
+        position: absolute;
+    }
+    .uvbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0f0f0f;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+
+    }
+    /* PRECIPITACIONES */
+    #precipimg{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #precipp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 5vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #precipr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .precip{
+        margin: 174vw 2vw;
+        position: absolute;
+        
+    }
+    .precipbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0f0f0f;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+    /* VIENTO */
+    #vientoimg{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #vientop{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 10.4vw;
+        width: 24vw;
+        position: absolute;
+    }
+
+    #vientor{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .viento{
+        margin: 174vw 36vw;
+        position: absolute;
+
+    }   
+    .vientobox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0f0f0f;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+    /* VISIBILIDAD */
+    #visibimg{
+        width: 9vw;
+        margin: 3vw 10vw;
+        z-index: 1;
+        position: absolute;
+    }
+    #visibp{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 12vw 8.4vw;
+        width: 24vw;
+        position: absolute;
+    }
+    #visibr{
+        font-size: 9vw;
+        margin: 15vw 11.5vw;
+        position: absolute;
+    }
+    .visibilidad{
+        margin: 174vw 70vw;
+        margin-bottom: 10vw;
+        position: absolute;
+    }
+    .visibbox{
+        width: 23vw;
+        height: 23vw;
+        background-color: #0f0f0f;
+        padding: 5vw 3vw 1vw 3vw;
+            /*top, right, bottom, left*/
+        border-radius: 1vw;
+        border: none;
+        position: absolute;
+        z-index: -1;    
+    }
+
+    /* Redirecciones */
+    a{
+        text-decoration: none;
+    
+    }
+    #btton{
+        font-size: 5vw;
+        margin: -5vw -5vw;
+    }
+    #more{
+        margin-top: -1vw;
+        position: fixed;
+        width: 60vw;
+        height: 205vw;
+        right: 0vw;
+        background-color: #0a0a0af8;
+        transition: all 500ms;
+        z-index: 4;
+    }
+    #more.active{
+    right: -60vw;
+    }   
+    #btton{
+        width: 4vw;
+        height: 4vw;
+        position: relative;
+        transform: rotate(180deg);
+        animation-name: example2;
+        animation-duration: 2s;
+    }
+    #btton.active{
+        position: relative;
+        animation-name: example;
+        animation-duration: 2s;
+      }
+      @keyframes example {
+        0%   {
+            transform: rotate(270deg);
+        }
+      }
+      @keyframes example2 {
+        0%   {
+            transform: rotate(90deg);
+        }
+      }
+
+    n{
+        margin: 0vw 0vw 0vw 2vw;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 4vw;
+        color: #ebff05;
+        position: absolute;
+        z-index: 3;
+
+    }
+    r{
+        margin: 0vw 0vw 0vw 0vw;
+            /*top, right, bottom, left*/
+        font-weight: 0.4vw;
+        font-size: 4vw;
+        font-family: 'Roboto Mono', monospace;
+        color: #8892b0;
+        position: absolute;
+        z-index: 3;
+        margin-left: 10vw;
+
+    }
+    #n2{
+        margin-top: 20vw;
+    }
+    #r2{
+        margin-top: 20vw;
+    }
+    #n3{
+        margin-top: 40vw;
+    }
+    #r3{
+        margin-top: 40vw;
+    }
+    
+    #gmail{
+        margin: 100vw 20vw;
+        float: left;
+        transform: rotate(90deg);
+        position: absolute;
+        color: #8892b0;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 6vw;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #twitch{
+        margin: 70vw 0vw;
+        width: 12vw;
+        position: absolute;
+    }
+    #instagram{
+        margin: 93vw 2vw;
+        width: 7vw;
+        position: absolute;
+    }
+    #twitter{
+        margin: 112vw 0vw -4vw 2vw;
+        width: 7vw;
+        position: absolute;
+    }
+    #github{
+        margin: 130vw 0vw -4vw 2vw;
+        width: 7vw;
+        position: absolute;
+    }
+    #linea{
+        position: absolute;
+        margin: 75vw 30vw;
+        height: 60vw;
+        border-color: #ebff05;
+        position: absolute;
+    }
+    #linea2{
+        position: absolute;
+        margin: 60vw 5vw;
+        width: 50vw;
+        border-color: #ebff05;
+        position: absolute;
+
+    }
+    #profile{
+        position: absolute;
+        margin: 150vw 20vw;
+        border-radius: 2vw;
+        width: 20vw;
+        position: absolute;
+    }
+    #profilep{
+        font-family: 'Source Sans Pro', sans-serif;
+        position: absolute;
+        margin: 170vw 21vw;
+        width: 20vw;
+        font-size: 4vw;
+        color: #666666;
+        position: absolute;
+    }
+    #saludom{
+        display: none;
+    }

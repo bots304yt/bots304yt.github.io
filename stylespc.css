@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+    background-color: #0a0a0a;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6vw;
+    color: #8892b0;
+}
+
+#error{
+    position: absolute;
+    display: none;
+    margin: 10vw 10vw;
+    width: 20vw;
+    font-size: 1vw;
+    background-color: rgba(128, 0, 0, 0.377);
+    border-radius: 1vw;
+    border: 0.1vw solid rgb(27, 4, 4);
+    padding: 1vw 0vw 1vw 3vw;
+
+}
+
+
+#detalles{
+    font-size: 1.5vw;
+    margin: 21vw 2vw;
+    position: absolute;
+}
+.noseleccionable{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+.temperatura{
+    color: #1f2020;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    margin-left: 30vw;
+    
+
+}
+#resultado{
+    font-size: 3.6vw;
+    border: none;
+    border-radius: 2vw;
+    margin: 10.5vw 16vw;
+    position: absolute;
+}
+
+#tiempo{
+    margin: 10.2vw 40vw;
+    width: 5vw;
+    position: absolute;
+}
+#cels{
+    margin: 11.2vw 20.3vw;
+    font-size: 1vw;
+    position: absolute;
+
+}
+#fondo{
+    margin-top: 0.4vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+    height: 20vw;
+    width: 96.4vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -2;
+}
+#day{
+    margin: 15vw 11vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+ /* SENSACION TERMICA */
+
+ #termometro{
+    width: 6vw;
+    margin: 1vw 4.5vw;
+    position: absolute;
+
+}
+#snp{
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin: 7vw 1vw;
+    width: 24vw;
+    position: absolute;
+}
+#snr{
+    font-size: 5vw;    
+    margin-top: 9vw;
+    position: absolute;
+
+}
+.sntemp{
+    margin: 23vw 15vw;
+    position: absolute;
+
+}
+.snbox{
+    width: 15vw;
+    height: 15vw;
+    background-color: #0f0f0f;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+/* HUMEDAD */
+#gota{
+    width: 6vw;
+    margin: 1vw 4.5vw;
+    position: absolute;
+}
+#hump{
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin: 7vw 4vw;
+    width: 24vw;
+    position: absolute;
+}
+#humr{
+    font-size: 5vw;    
+    margin-top: 9vw;
+    position: absolute;
+}
+.humedad{
+    margin: 23vw 55vw;
+    position: absolute;
+}
+.humbox{
+    background-color: #0f0f0f;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: -1;
+    width: 15vw;
+    height: 15vw;
+}
+
+/* RAYOS UV */
+#rayo{
+    width: 6vw;
+    margin: 1vw 4.5vw;
+    position: absolute;
+}
+#uvp{
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin: 7vw 6.5vw;
+    width: 24vw;
+    position: absolute;
+}
+#uvr{
+    font-size: 5vw;    
+    margin : 9vw 6vw;
+    position: absolute;
+}
+.uv{
+    margin: 23vw 35vw;
+    position: absolute;
+}
+.uvbox{
+    width: 15vw;
+    height: 15vw;
+    background-color: #0f0f0f;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: -1;
+
+}
+/* PRECIPITACIONES */
+#precipimg{
+    width: 6vw;
+    margin: 1vw 5vw;
+    position: absolute;
+}
+#precipp{
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin: 7vw 2vw;
+    width: 24vw;
+    position: absolute;
+}
+#precipr{
+    font-size: 5vw;
+    margin: 9vw 6vw;
+    position: absolute;
+}
+.precip{
+    margin: 43vw 15vw;
+    position: absolute;
+    
+}
+.precipbox{
+    width: 15vw;
+    height: 15vw;
+    background-color: #0f0f0f;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: -1;
+}
+
+/* VIENTO */
+#vientoimg{
+    width: 6vw;
+    margin: 1vw 5vw;
+    position: absolute;
+}
+#vientop{
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin: 7vw 5vw;
+    width: 24vw;
+    position: absolute;
+}
+
+#vientor{
+    font-size: 5vw;    
+    margin-top: 9vw;
+    position: absolute;
+}
+.viento{
+    margin: 43vw 35vw;
+    position: absolute;
+
+}   
+.vientobox{
+    width: 15vw;
+    height: 15vw;
+    background-color: #0f0f0f;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: -1;
+}
+
+/* VISIBILIDAD */
+#visibimg{
+    width: 6vw;
+    margin: 1vw 4.5vw;
+    position: absolute;
+}
+#visibp{
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin: 7vw 4vw;
+    width: 24vw;
+    position: absolute;
+}
+#visibr{
+    font-size: 5vw;    
+    margin-top: 9vw;
+    position: absolute;
+}
+.visibilidad{
+    margin: 43vw 55vw;
+    position: absolute;
+}
+.visibbox{
+    width: 15vw;
+    height: 15vw;
+    background-color: #0f0f0f;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: -1;    
+}
+
+
+#saludo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 40vw;
+    color: #1f2020;
+    margin: 6vw 37vw;
+    position: absolute;
+}
+#saludom{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 0.8vw;
+    width: 40vw;
+    color: #1f2020;
+    margin: 8vw 33vw;
+    position: absolute;
+}
+.footer{
+    position: absolute;
+}
+#background{
+    background-color: #000000;
+    width: 99.6vw;
+    border: none;
+    height: 2vw;
+    margin: 65vw -1vw;
+    position: absolute;
+}
+#copyright{
+    text-decoration: none;
+    color: #8892b0;
+    font-size: 1vw;
+    width: 20vw;
+    margin: 65.35vw 0vw;
+    z-index: 1;
+    position: absolute;
+}
+
+/* DISPLAY NONE */
+.redirecciones{
+    display: none;
+}
+.redes{
+    display: none;
+}
+#hora{
+    display: none;
+}
+#btton{
+    display: none;
+}

@@ -12,21 +12,44 @@
 </head>
 <body onload="generate()">
     <top>
-        <div class="redirecciones">
-            <img id="logo" src="https://pbs.twimg.com/profile_images/1550251500361973762/nt-zSasw_400x400.jpg" onclick="window.location.href = '../index.html'"" alt="bots304yt">
-            <div class="links">
-                <span id="n1">01.</span>  
-                <span><a href="https://github.com/bots304yt" class="r" id="r1">Proyectos</a></span>
-                <span id="n">02.</span>  
-                <span><a href="https://twitter.com/bots304yt" class="r" id="r2">Contacto</a></span>
-                <span id="n">03.</span>  
-                <span><a href="../Conocimientos/index.html" class="r" id="r3">Conocimientos</a></span>
+        <div id="navigator" class="active">
+            <img id="boton" class="active" src="../assets/images/weather/threelines.png" onclick="navigator()">
+            <div class="lineas">
+                <hr id="linea1">
+                <hr id="linea2">
+            </div>
+            <div class="redirecciones">
+                <img id="logo" src="https://pbs.twimg.com/profile_images/1550251500361973762/nt-zSasw_400x400.jpg" onclick="window.location.href = '../index.html'"" alt="bots304yt">
+                <p id="logop">main page</p>
+                <span id="gmail">bots304yt@gmail.com</span>
+                <div class="links">
+                    <span id="n1">01.</span>  
+                    <span><a href="https://github.com/bots304yt" class="r" id="r1">Proyectos </a></span>
+                    <span class="n" id="n2">02.</span>  
+                    <span><a href="https://twitter.com/bots304yt" class="r" id="r2">Contacto </a></span>
+                    <span class="n" id="n3"> 03.</span>  
+                    <span><a href="../Conocimientos/index.html" class="r" id="r3">Conocimientos </a></span>
+                </div>
+                <div class="nredes">
+                    <a href="https://github.com/bots304yt">
+                        <img id="ngithub" src="../assets/images/github.png" alt=""></img>
+                    </a>
+                    <a href="https://www.instagram.com/botss304/">
+                        <img id="ninstagram" src="../assets/images/insta.png" alt=""></img>
+                    </a>
+                    <a href="https://twitter.com/bots304yt">
+                        <img id="ntwitter" src="../assets/images/twitter.png" alt=""></img>
+                    </a>
+                    <a href="https://www.twitch.tv/bots304yt">
+                        <img id="ntwitch" src="../assets/images/twitch.png" alt="" ></img>
+                    </a>
+                </div>
             </div>
         </div>
     </top>
     <middle>
         <div class="mtop">
-            <p>Generador de contraseñas seguras</p>
+            <p id="gnr">Generador de contraseñas seguras</p>
             <img id="serugoimg" src="../assets/images/passw/strong.png" alt="">
         </div>
         <div class="center">
@@ -67,7 +90,7 @@
             <a href="https://www.twitch.tv/bots304yt">
                 <img id="twitch" src="../assets/images/twitch.png" alt="" ></img>
             </a>
-        </div>
+    </div>
     </footer>
     <script src="scripts.js" ></script>
 </body>

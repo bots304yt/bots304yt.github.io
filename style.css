@@ -204,7 +204,7 @@ a{
     padding: 1vw 1.4vw;
     border-radius: 0.6vw;
     color: #ebff05;
-    margin-left: 30vw;
+    margin-left: 29vw;
     margin-top: -2vw;
     font-weight: bold;
     position: absolute;
@@ -213,6 +213,25 @@ a{
 }
 
 #divisas:hover{
+    background-color: #eaff050c;
+}
+
+#password{
+    font-family: 'Roboto Mono', monospace;
+    background-color: transparent;
+    border: 0.1vw solid #ebff05;
+    padding: 1vw 1.4vw;
+    border-radius: 0.6vw;
+    color: #ebff05;
+    margin-left: 45vw;
+    margin-top: -2vw;
+    font-weight: bold;
+    position: absolute;
+    font-size: 0.8vw;
+    cursor: pointer;
+}
+
+#password:hover{
     background-color: #eaff050c;
 }
 
@@ -233,7 +252,7 @@ a{
     font-size: 0.8vw;
     cursor: pointer;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+@media only screen and (max-device-width : 680px) {
             /* OVERLAY */
     n{
         font-size: 1.9vw;
@@ -279,73 +298,73 @@ a{
         margin-top: 30.6vw;        
     }
     #twitch{
-        margin: 67vw 27vw 0vw;
-        width: 7vw;
-        height: 7vw;
+        margin: 88vw 28vw 0vw;
+        width: 5vw;
+        height: 5vw;
         position: absolute;
         cursor: pointer;
     }
     #twitter{
-        margin: 68vw 42vw 0vw;
+        margin: 88vw 42vw 0vw;
         width: 5vw;
         height: 5vw;
         position: absolute;
         cursor: pointer;
     }
     #instagram{
-        margin: 68vw 54vw 0vw;
+        margin: 88vw 54vw 0vw;
         width: 5vw;
         height: 5vw;
         position: absolute;
         cursor: pointer;
     }
     #github{
-        margin: 68vw 65vw 0vw;
+        margin: 88vw 65vw 0vw;
         width: 5vw;
         height: 5vw;
         position: absolute;
         cursor: pointer;
     }  
     #github:hover{
-        margin-top: 65.6vw;
+        margin-top: 89vw;
     }
     #instagram:hover{
-        margin-top: 65.6vw;
+        margin-top: 89vw;
     }
     #twitter:hover{
-        margin-top: 65.6vw;
+        margin-top: 89vw;
     }
     #twitch:hover{
-        margin-top: 64.6vw;
+        margin-top: 89vw;
     }
     #linea{
-    margin-top: 56vw;
-    height: 25vw;
-    margin-left: 8vw;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    position: absolute;
+        margin-top: 79vw;
+        height: 25vw;
+        margin-left: 8vw;
+        -webkit-transform:rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
           
     }
     #linea2{
-    margin-top: 59vw;
-    height: 20vw;
-    margin-left: 86vw;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    position: absolute;
+        margin-top: 81vw;
+        height: 20vw;
+        margin-left: 86vw;
+        -webkit-transform:rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
     }
     
     #gmail{
         float: left;
         transform: rotate(90deg);
-        margin: 95vw 73vw 0vw;
+        margin: 120vw 73vw 0vw;
         position: absolute;
         cursor: pointer;
         color: #8892b0;
@@ -413,4 +432,15 @@ a{
         border-radius: 1.2vw;
         border: 0.4vw solid #ebff05;
     }
+    #password{
+        margin: 62vw 30vw 0vw 7vw;
+             /*top, right, bottom, left*/
+        padding: 3vw 4vw 3vw 4vw;
+             /*top, right, bottom, left*/
+        width: 42vw;
+        font-size: 3vw;
+        border-radius: 1.2vw;
+        border: 0.4vw solid #ebff05;
+    }
+    
 }
