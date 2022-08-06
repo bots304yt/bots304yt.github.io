@@ -83,12 +83,12 @@ a{
     height: 3.5vw;
     width: 40vw;
 }
-#regenerar{
+#copiar{
     width: 1.7vw;
     margin: 1.3vw 0 0 35vw;
     position: absolute;
 }
-#copiar{
+#regenerar{
     width: 2.3vw;
     margin: 1.3vw 0 0 38vw;
     position: absolute;
@@ -261,6 +261,113 @@ footer{
 }
 .nredes{
     display: none;
+}
+#result::-moz-selection {
+    background: transparent;
+  }
+  
+#result::selection {
+    background: transparent;
+  }
+
+.coptooltiptext{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+    color: #8892b0;
+    background-color: #353844;
+    border-radius: 0.3vw;
+    padding: 0.5vw;
+    margin: 1.3vw 0 0 37.5vw;
+    display: none;
+    position: absolute;
+    animation-name: coptooltipa;
+    animation-duration: 0.3s;
+}
+.coptooltiparrow{
+    display: none;
+    border-width: 0;
+    border-top: 0.5vw solid transparent;
+    border-bottom: 0.5vw solid transparent; 
+    border-right: 0.5vw solid #353844;
+    border-radius: 0.2vw;
+    position: absolute;
+    margin: 1.8vw 0 0 37.1vw;
+    animation-name: coptooltipaa;
+    animation-duration: 0.3s;
+}
+
+@keyframes coptooltipa {
+    0%   {
+        background-color: transparent;
+    }
+    100%   {
+        background-color: #353844;
+    }
+  }
+  @keyframes coptooltipaa {
+    0%   {
+        border-right: 0.5vw solid transparent;
+    }
+    100%   {
+        border-right: 0.5vw solid #353844;
+    }
+  }
+.copy:hover .coptooltiptext{
+    display: inline-block;
+}
+.copy:hover .coptooltiparrow{
+    display: inline-block;
+}
+
+.gentooltiptext{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+    color: #8892b0;
+    background-color: #353844;
+    border-radius: 0.3vw;
+    padding: 0.5vw;
+    margin: 1.3vw 0 0 41vw;
+    display: none;
+    position: absolute;
+    animation-name: gentooltipa;
+    animation-duration: 0.3s;
+}
+.gentooltiparrow{
+    display: none;
+    border-width: 0;
+    border-top: 0.5vw solid transparent;
+    border-bottom: 0.5vw solid transparent; 
+    border-right: 0.5vw solid #353844;
+    border-radius: 0.2vw;
+    position: absolute;
+    margin: 1.8vw 0 0 40.7vw;
+    animation-name: gentooltipaa;
+    animation-duration: 0.3s;
+}
+
+@keyframes gentooltipa {
+    0%   {
+        background-color: transparent;
+    }
+    100%   {
+        background-color: #353844;
+    }
+  }
+  @keyframes gentooltipaa {
+    0%   {
+        border-right: 0.5vw solid transparent;
+    }
+    100%   {
+        border-right: 0.5vw solid #353844;
+    }
+  }
+.generar:hover .gentooltiptext{
+    display: inline-block;
+}
+.generar:hover .gentooltiparrow{
+    display: inline-block;
 }
 @media only screen and (max-device-width : 680px) {
 
@@ -459,11 +566,11 @@ footer{
         font-size: 6vw;
         padding-right: 20vw;
     }
-    #regenerar{
+    #copiar{
         width: 6vw;
         margin: 10vw 0 0 64vw;
     }
-    #copiar{
+    #regenerar{
         width: 8vw;
         margin: 10vw 0 0 73vw;
 
@@ -534,4 +641,43 @@ footer{
         margin-top: 3vw;
     }
 
+    /* Tooltip */
+    .gentooltiptext{
+        font-size: 3vw;
+        border-radius: 0.3vw;
+        padding: 1vw;
+        margin: 1.8vw 0 0 70.7vw;
+    }
+    .gentooltiparrow{
+        border-width: 0;
+        border-left: 1.8vw solid transparent;
+        border-right: 1.8vw solid transparent;
+        border-top: 1.8vw solid #353844;
+        margin: 7vw 0 0 75vw;
+        animation-name: gentooltipaa;
+    }
+    @keyframes gentooltipaa {
+        0%   {
+            border-top: 1.8vw solid transparent;
+        }
+        100%   {
+            border-top: 1.8vw solid #353844;
+        }
+      }
+
+    .coptooltiptext{
+        font-size: 3vw;
+        border-radius: 0.3vw;
+        padding: 1vw;
+        margin: 1.8vw 0 0 60.7vw;
+    }
+    .coptooltiparrow{
+        border-width: 0;
+        border-left: 1.8vw solid transparent;
+        border-right: 1.8vw solid transparent;
+        border-top: 1.8vw solid #353844;
+        margin: 7vw 0 0 65vw;
+        animation-name: gentooltipaa;
+
+    }
 }

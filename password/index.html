@@ -7,8 +7,9 @@
     <meta name="author" content="bots304yt@gmail.com">
     <link rel="icon" href="../assets/images/profile.png">
     <meta name="description" content="bots304yt">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta property="og:image" content="../assets/images/profile.png"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
 </head>
 <body onload="generate()">
     <top>
@@ -19,7 +20,7 @@
                 <hr id="linea2">
             </div>
             <div class="redirecciones">
-                <img id="logo" src="https://pbs.twimg.com/profile_images/1550251500361973762/nt-zSasw_400x400.jpg" onclick="window.location.href = '../index.html'"" alt="bots304yt">
+                <img id="logo" src="../assets/images/profile.png" onclick="window.location.href = '../index.html'"" alt="bots304yt">
                 <p id="logop">main page</p>
                 <span id="gmail">bots304yt@gmail.com</span>
                 <div class="links">
@@ -53,8 +54,16 @@
             <img id="serugoimg" src="../assets/images/passw/strong.png" alt="">
         </div>
         <div class="center">
-            <img id="copiar" src="../assets/images/passw/refresh.png" alt="" onclick="generate()">
-            <img id="regenerar" src="../assets/images/copy.png" alt="" onclick="setValue()">
+            <div class="generar">
+                <img id="regenerar" src="../assets/images/passw/refresh.png" alt="" onclick="generate()" onmouseout="gentooltipf()">
+                <span class="gentooltiptext" id="gentooltip">Generar</span>
+                <hr class="gentooltiparrow">
+            </div>
+            <div class="copy">
+                <img id="copiar" src="../assets/images/copy.png" alt="" onclick="copy()" onmouseout="coptooltipf()">
+                <span class="coptooltiptext" id="coptooltip">Copiar</span>
+                <hr class="coptooltiparrow">
+            </div>
             <input id="result" type="text" readonly="true" value="/T@Z!HZ!wk7GcQ3EU">
             <p id="btxt">Personaliza la contraseña</p>
 
