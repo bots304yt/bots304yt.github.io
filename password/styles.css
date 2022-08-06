@@ -81,7 +81,8 @@ a{
     border-radius: 0.3vw;
     padding: 0.5vw 0 0.5vw 2vw;
     height: 3.5vw;
-    width: 40vw;
+    width: 32vw;
+    padding-right: 8vw;
 }
 #copiar{
     width: 1.7vw;
