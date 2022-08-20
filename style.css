@@ -10,6 +10,7 @@ body{
     background-color: #0c1930;
 }
 
+
 .redes{
     display: flex;
     text-align: center;
@@ -169,7 +170,7 @@ r{
     background-color: #091324;
     color: #8892b0;
     border: none;
-    left: 71vw;
+    left: 69vw;
     margin-top: -31vw;
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 2vw;
@@ -177,9 +178,30 @@ r{
     width: 6vw;
     -moz-text-size-adjust: auto;
 }
+#textbtn{
+    margin-left: 6.5vw;
+    width: 2vw;
+    height: 1.2vw;
+    margin-top: -31.1vw;
+}
+#send{
+    font-size: 1vw;
+    text-align: center;
+    vertical-align: middle;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+#text:target{
+    
+}
+
 .inputs:focus{
     color: #b2b8ca;
-
 }
 a{
     text-decoration: none;
